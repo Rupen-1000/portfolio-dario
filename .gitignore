@@ -1,0 +1,6 @@
+dist/
+ideas/
+node_modules/
+.env
+.vscode/
+vue_template_artifacts/
