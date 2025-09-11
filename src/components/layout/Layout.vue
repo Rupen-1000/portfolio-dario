@@ -3,6 +3,7 @@ import Profile from './profile/Profile.vue';
 import Content from './content/Content.vue';
 </script>
 
+<!-- NOTE: discarded component! Remove in next commit -->
 <template>
     <div class="layout">
         <div class="profile">
