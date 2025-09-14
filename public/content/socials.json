@@ -1,0 +1,18 @@
+{
+    "github":{
+        "link":"",
+        "icon-dir":"@/assests/icons/github.svg"
+    },
+    "google-scholar":{
+        "link":"",
+        "icon-dir":"@/assests/icons/google-scholar.svg"
+    },
+    "email":{
+        "link":"",
+        "icon-dir":"@/assests/icons/email.svg"
+    },
+    "linkedin":{
+        "link":"",
+        "icon-dir":"@/assests/icons/linkedin.svg"
+    }
+}

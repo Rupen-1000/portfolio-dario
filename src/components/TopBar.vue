@@ -8,15 +8,20 @@
 
 <template>
 
-    <div class="profile">
-        <h1> Here comes the profile components </h1>
+    <div class="profile">        
+        <Profile/>
     </div>
 
     <div class="socials">
-
+        <Socials/>
     </div>
 
     <div class="publication">
 
     </div>
  </template>
+
+<script setup>
+import Profile from '@/components/left-layout/Profile.vue';
+import Socials from '@/components/left-layout/Socials.vue';
+</script>
