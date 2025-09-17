@@ -1,6 +1,6 @@
 <template>
 
-    <component :is="iconComponent" class="social-icons" />
+    <component :is="iconComponent"/>
 </template>
 
 <script setup>
@@ -14,7 +14,7 @@ const props = defineProps({
 });
 
 // Dynamically import the SVG with path
-const iconComponent = defineAsyncComponent(() => import(`@/assets/icons/${props.name}.svg`));
+const iconComponent = defineAsyncComponent(() => import(`@/assets/icons/og/${props.name}.svg`));
 </script>
 
 <style scoped>

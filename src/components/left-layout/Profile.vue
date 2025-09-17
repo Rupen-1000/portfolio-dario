@@ -5,25 +5,32 @@
         <div v-else-if="error">Error: {{ error }}</div>
         <div v-else>
             <h1 class="
-                text-2xl md:text-5xl noto-h1 font-effect
-                flex flex-col items-end 
-                -mb-2 md:-mb-1
-                lg:text-5xl 
+                border-2 border-blue-900 rounded-lg
+                noto-h1 font-effect text-right
+                text-3xl md:text-5xl lg:text-5xl
+                md:-mb-1
+                lg:text-left lg:noto-h1 [font-weight:700]
                 lg:mb-1 lg:items-start
             "> 
                 {{ data.name }}
             </h1>
             <h2 class="
-                text-lg md:text-4xl noto-h2 font-effect
-                flex flex-col items-end
+                border-2 border-blue-700 rounded-lg
+                text-lg md:text-xl lg:text-2xl
+                noto-h2 font-effect text-right
+                lg:text-left lg:noto-h2 [font-weight:500]
                 lg:items-start
             "> 
                 {{ data.title }}
             </h2>
             <h3 class="
-                text-sm md:text-2xl noto-h3 font-effect
-                flex flex-col items-end
+                border-2 border-blue-400 rounded-lg
+                w-3/4 ml-auto lg:ml-0 lg:mr-0
+                text-md md:text-xl 
+                noto-h3 font-effect text-right
                 mt-2 md:mt-3
+                lg:w-9/10
+                lg:text-left
                 lg:items-start
             ">
                 {{ data.quote }}

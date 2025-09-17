@@ -9,7 +9,9 @@ Stays on top of the landing page for mobile screens. Only rendered when in mobil
 
 <template>
     <!-- Render the Profile part -->
-    <div class="profile">        
+    <div class="
+            w-full
+    ">        
         <Profile/>
     </div>
 

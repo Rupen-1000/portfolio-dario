@@ -16,23 +16,22 @@ See how you can create that shadow effect and put it in assests as it'll be used
 <template>
   <!-- Wrapper for the whole layout. -->
   <div class="
+        border-2 border-purple-500 rounded-lg 
         flex flex-col lg:flex-row 
         items-end lg:items-center 
         min-h-screen w-full
-        border-2 border-purple-500 rounded-lg 
         pt-6 pr-8 pb-0 pl-8
-        lg:pt-4 lg:pr-20 lg:pb-0 lg:pl-20
+        lg:pt-5 lg:pr-40 lg:pb-0 lg:pl-40
         lg:mr-10
-    ">
+  ">
     
     <!-- Container shows either top bar or nav bar depending on the view. -->
     
     <!-- This is for the Top Bar -->
     <div v-if="isMobile" class="
-            flex flex-col justify-end-safe
-            border-2 border-blue-500 rounded-lg 
-            items-end
-            lg:w-full
+            flex flex-col
+            items-end justify-end-safe
+            w-full
             mt-2 mb-6 p-1
     ">
       <TopBar/>
@@ -40,21 +39,23 @@ See how you can create that shadow effect and put it in assests as it'll be used
     
     <!-- This is for the Nav Bar -->
     <div v-else class="
+            border-2 border-blue-500 rounded-lg
             flex-1 flex-row
             items-start
-            border-2 border-blue-500 rounded-lg
-            p-10 w-1/3 h-full
+            p-5 w-full h-full
+            lg:mr-5
     ">
        <NavBar/>
     </div>
 
     <!-- This is for the Main Content area. -->
     <!-- Content area is scrollable but only for screens >lg -->
-    <div class="flex-2 
+    <div class="
             border-1 border-green-500 rounded-lg 
+            flex-1
             p-4 lg:p-8 
             w-full h-auto
-            lg:w-60 lg:h-full lg:ml-10
+            lg:h-full
     ">
       <Content/>
     </div>
