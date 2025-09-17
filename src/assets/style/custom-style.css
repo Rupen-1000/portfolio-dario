@@ -1,0 +1,20 @@
+.social-icons {
+  /* Dimensions (width and height) */
+  width: 30px;
+  height: 30px;
+
+  /* Fill color (used because of fill="currentColor") */
+  color: #FFFFFF;
+
+  /* Stroke color */
+  stroke: #222222;
+  stroke-width:1px;
+
+  /* Drop shadow effect */
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.05));
+}
+
+.font-effect {
+    /* Drop shadow effect */
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
+}

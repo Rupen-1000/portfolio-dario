@@ -3,6 +3,39 @@
 
 @import "tailwindcss";
 
-body {
-    font-family: 'Noto-Sans';
+@theme {
+    --font-sans: "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* custom CSS classes */
+@layer components {
+  .noto-h1 {
+    font-family: var(--font-sans);
+    font-variation-settings: "wdth" 90;
+    font-weight: 650;
+    /* fluid font size with clamp */
+    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
+    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+  }
+  .noto-h2 {
+    font-family: var(--font-sans);
+    font-variation-settings: "wdth" 90;
+    font-weight: 400;
+    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
+    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+  }
+  .noto-h3 {
+    font-family: var(--font-sans);
+    font-variation-settings: "wdth" 100;
+    font-weight: 300;
+    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
+    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+  }
+  .noto-body {
+    font-family: var(--font-sans);
+    font-variation-settings: "wdth" 100;
+    font-weight: 400;
+    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
+    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+  }
 }

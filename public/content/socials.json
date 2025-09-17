@@ -1,18 +1,18 @@
 {
     "github":{
-        "link":"",
-        "icon-dir":"@/assests/icons/github.svg"
+        "link":"https://github.com",
+        "name":"GitHub"
     },
     "google-scholar":{
-        "link":"",
-        "icon-dir":"@/assests/icons/google-scholar.svg"
+        "link":"https://scholar.google.com/",
+        "name":"Google Scholar"
     },
     "email":{
-        "link":"",
-        "icon-dir":"@/assests/icons/email.svg"
+        "link":"john.doe@gmail.com",
+        "name":"E-mail"
     },
     "linkedin":{
-        "link":"",
-        "icon-dir":"@/assests/icons/linkedin.svg"
+        "link":"https://linkedin.com",
+        "name":"LinkedIn"
     }
 }
