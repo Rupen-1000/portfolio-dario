@@ -18,16 +18,15 @@ See how you can create that shadow effect and put it in assests as it'll be used
   <!--
     Wrapper for the whole layout.
     Note: 
-      - Clamp to add container width padding fluidity.
+      - Contain the width of the display content and control the x margin
   -->
   <div class="
-        border-2 border-purple-500 rounded-lg 
-        flex flex-col lg:flex-row 
-        items-end lg:items-center 
-        min-h-screen w-full
-        pt-6 pb-0
-        px-[clamp(1rem,10vw,10rem)]
-  ">  
+            border-2 border-purple-500 rounded-lg
+            flex flex-col lg:flex-row items-end lg:items-center
+            min-h-screen w-full
+            pt-6 pb-0
+            px-6 lg:px-10
+            lg:max-w-[80rem] lg:mx-auto">
     <!-- Container shows either top bar or nav bar depending on the view. -->
     
     <!-- This is for the Top Bar -->
