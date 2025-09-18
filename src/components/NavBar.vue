@@ -40,22 +40,8 @@
                 RESEARCH
             </h3>
         </a>
-
-        <a href="" target="_blank">
-            <div class="relative flex items-center group">
-                <h3 class="
-                        text-lg
-                        noto-links font-effect text-left
-                        inline-block
-                ">
-                    PUBLICATIONS 
-                </h3>
-                
-                <Icon :name="'diagonal-arrow'" class="arrow"/>
-            </div>
-
-        </a>
         
+        <PublicationLink/>
     </div>
     <!-- NOTE:
     - The margin needs to change after the other contents are filled in
@@ -71,12 +57,8 @@
 
 <script setup>
 import { useJsonFetch } from '@/composables/useJsonFetch.js';
-import Profile from './left-layout/Profile.vue';
-import Socials from './left-layout/Socials.vue'
+import Profile from '@/components/left-layout/Profile.vue';
+import Socials from '@/components/left-layout/Socials.vue'
+import PublicationLink from '@/components/left-layout/PublicationLink.vue';
 
-// Load file using the composable
-import Icon from '@/components/general/Icon.vue';
-
-// Load file using the composable
-// const { data, loading, error } = useJsonFetch('/content/socials.json');
 </script>

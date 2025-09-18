@@ -19,12 +19,11 @@ Stays on top of the landing page for mobile screens. Only rendered when in mobil
         <Socials/>
     </div>
 
-    <div class="publication">
-        
-    </div>
+    <PublicationLink/>
  </template>
 
 <script setup>
 import Profile from '@/components/left-layout/Profile.vue';
 import Socials from '@/components/left-layout/Socials.vue';
+import PublicationLink from '@/components/left-layout/PublicationLink.vue';
 </script>

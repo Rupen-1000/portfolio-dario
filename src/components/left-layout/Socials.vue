@@ -8,14 +8,12 @@
       <div
          v-for="(values, socialName) in data"
          :key="socialName"
-         class="relative inline-block group lg:p-2 "
+         class="relative inline-block group p-1 lg:p-2 "
       >
          <!-- email needs to be copied so use v-if else -->
          <!-- Also add error handling -->
          <!-- Here comes a link with the icon, it's clickable,and on hover for 5 secs shows social name  -->
-         <a :href="values.link" 
-            target="_blank" 
-         >
+         <a :href="values.link" target="_blank" rel="noopener noreferrer">
             <Icon :name="socialName" class="social-icons"/>
             <!-- DEBUG: Below code creates problems!!! -->
             <!-- <span 
