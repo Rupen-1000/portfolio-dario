@@ -21,12 +21,13 @@ See how you can create that shadow effect and put it in assests as it'll be used
       - Contain the width of the display content and control the x margin
   -->
   <div class="
-            border-2 border-purple-500 rounded-lg
-            flex flex-col lg:flex-row items-end lg:items-center
-            min-h-screen w-full
-            pt-6 pb-0
-            px-6 lg:px-10
-            lg:max-w-[80rem] lg:mx-auto">
+          border-2 border-purple-500 rounded-lg
+          flex flex-col lg:flex-row items-end lg:items-center
+          min-h-screen w-full
+          pt-6 pb-0
+          px-6 lg:px-5
+          lg:max-w-[90rem] lg:mx-auto
+  ">
     <!-- Container shows either top bar or nav bar depending on the view. -->
     
     <!-- This is for the Top Bar -->
@@ -41,7 +42,6 @@ See how you can create that shadow effect and put it in assests as it'll be used
     
     <!-- This is for the Nav Bar -->
     <div v-else class="
-            border-2 border-blue-500 rounded-lg
             flex-1 flex-row
             items-start
             p-5 w-full h-full
@@ -56,7 +56,7 @@ See how you can create that shadow effect and put it in assests as it'll be used
             border-1 border-green-500 rounded-lg 
             flex-1
             p-4 lg:p-8 
-            w-full h-auto
+            w-full h-full
             lg:h-full
     ">
       <Content/>

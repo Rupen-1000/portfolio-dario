@@ -9,19 +9,32 @@
  -->
 
 <template>
-    <div class="portfolio-image">
-        <h1> Here is an image!</h1>
+    <!-- Container for Portfolio image -->
+    <div class="
+            border-1 border-[#C0C0C0]
+            w-100 h-100 rounded-full overflow-hidden
+            mb-7
+            shadow-lg shadow-gray-300/20
+    ">
+        <img src="/images/Dario_portfolio.jpg" 
+            alt="Portfolio picture"
+            class="
+                img-face
+                w-full h-full
+            "
+        />
     </div>
 
-    
+    <!-- Container for Profile -->
     <div class="
         profile
     ">
         <Profile/>
     </div>
 
+    <!-- Container for Navigation -->
     <div class="
-            mt-20
+            mt-10
     ">
         <a href="" target="_blank">
             <h3 class="
@@ -43,12 +56,14 @@
         
         <PublicationLink/>
     </div>
+
+    <!-- Container for Social links -->
     <!-- NOTE:
     - The margin needs to change after the other contents are filled in
     
     -->
     <div class="
-            w-1/3 mt-80
+            w-1/3 mt-30
     ">
         <Socials/>
     </div>

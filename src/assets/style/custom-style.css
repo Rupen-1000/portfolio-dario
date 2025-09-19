@@ -30,3 +30,10 @@
     /* Drop shadow effect */
     filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
 }
+
+.img-face {
+  object-fit: contain;
+  object-position: 50% 50%; /* adjust the position of the image */
+  transform: scale(1.2) translateY(7%);
+
+}

@@ -5,7 +5,6 @@
         <div v-else-if="error">Error: {{ error }}</div>
         <div v-else>
             <h1 class="
-                border-2 border-blue-900 rounded-lg
                 noto-h1 font-effect text-right
                 text-3xl md:text-5xl lg:text-5xl
                 md:-mb-1
@@ -15,7 +14,6 @@
                 {{ data.name }}
             </h1>
             <h2 class="
-                border-2 border-blue-700 rounded-lg
                 text-lg md:text-xl lg:text-2xl
                 noto-h2 font-effect text-right
                 lg:text-left lg:noto-h2 [font-weight:500]
@@ -24,7 +22,6 @@
                 {{ data.title }}
             </h2>
             <h3 class="
-                border-2 border-blue-400 rounded-lg
                 w-3/4 ml-auto lg:ml-0 lg:mr-0
                 text-md md:text-xl 
                 noto-h3 font-effect text-right
