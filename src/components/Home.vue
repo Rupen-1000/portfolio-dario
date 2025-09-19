@@ -22,8 +22,8 @@ See how you can create that shadow effect and put it in assests as it'll be used
   -->
   <div class="
           border-2 border-purple-500 rounded-lg
-          flex flex-col lg:flex-row items-end lg:items-center
-          min-h-screen w-full
+          flex flex-col lg:flex-row items-stretch
+          min-h-screen lg:h-screen w-full
           pt-6 pb-0
           px-6 lg:px-5
           lg:max-w-[90rem] lg:mx-auto
@@ -42,9 +42,9 @@ See how you can create that shadow effect and put it in assests as it'll be used
     
     <!-- This is for the Nav Bar -->
     <div v-else class="
-            flex-1 flex-row
-            items-start
-            p-5 w-full h-full
+            border-2 border-blue-500 rounded-lg
+            flex-1
+            pr-5 pl-5 pt-2 w-full h-full
             lg:mr-5
     ">
        <NavBar/>
@@ -55,7 +55,7 @@ See how you can create that shadow effect and put it in assests as it'll be used
     <div class="
             border-1 border-green-500 rounded-lg 
             flex-1
-            p-4 lg:p-8 
+            p-4 lg:pr-8 pl-8 pt-8 
             w-full h-full
             lg:h-full
     ">

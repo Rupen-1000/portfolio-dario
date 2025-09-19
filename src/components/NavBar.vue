@@ -13,7 +13,7 @@
     <div class="
             border-1 border-[#C0C0C0]
             w-100 h-100 rounded-full overflow-hidden
-            mb-7
+            mt-2 mb-8
             shadow-lg shadow-gray-300/20
     ">
         <img src="/images/Dario_portfolio.jpg" 
@@ -34,7 +34,7 @@
 
     <!-- Container for Navigation -->
     <div class="
-            mt-10
+            mt-5
     ">
         <a href="" target="_blank">
             <h3 class="
@@ -63,7 +63,7 @@
     
     -->
     <div class="
-            w-1/3 mt-30
+            w-1/3 mt-[clamp(2rem,5rem+5vh,30rem)] mb-[clamp(2rem,5vh,4rem)]
     ">
         <Socials/>
     </div>
