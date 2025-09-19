@@ -26,7 +26,7 @@ See how you can create that shadow effect and put it in assests as it'll be used
           min-h-screen lg:h-screen w-full
           pt-6 pb-0
           px-6 lg:px-5
-          lg:max-w-[90rem] lg:mx-auto
+          lg:max-w-[85vw] lg:mx-auto
   ">
     <!-- Container shows either top bar or nav bar depending on the view. -->
     
@@ -44,6 +44,7 @@ See how you can create that shadow effect and put it in assests as it'll be used
     <div v-else class="
             border-2 border-blue-500 rounded-lg
             flex-1
+            flex flex-col justify-between
             pr-5 pl-5 pt-2 w-full h-full
             lg:mr-5
     ">

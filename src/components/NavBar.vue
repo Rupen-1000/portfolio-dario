@@ -10,60 +10,46 @@
 
 <template>
     <!-- Container for Portfolio image -->
-    <div class="
-            border-1 border-[#C0C0C0]
-            w-100 h-100 rounded-full overflow-hidden
-            mt-2 mb-8
-            shadow-lg shadow-gray-300/20
-    ">
-        <img src="/images/Dario_portfolio.jpg" 
-            alt="Portfolio picture"
-            class="
-                img-face
-                w-full h-full
-            "
-        />
-    </div>
+    <div class="space-y-4 flex-none">
+        <PortfolioImage/>
 
-    <!-- Container for Profile -->
-    <div class="
-        profile
-    ">
-        <Profile/>
-    </div>
-
-    <!-- Container for Navigation -->
-    <div class="
-            mt-5
-    ">
-        <a href="" target="_blank">
-            <h3 class="
-                    text-lg
-                    noto-links font-effect text-left
-            "> 
-                ABOUT
-            </h3>
-        </a>
-
-        <a href="" target="_blank">
-            <h3 class="
-                    text-lg
-                    noto-links font-effect text-left
-            "> 
-                RESEARCH
-            </h3>
-        </a>
+        <!-- Container for Profile -->
+        <div class="profile">
+            <Profile/>
+        </div>
         
-        <PublicationLink/>
-    </div>
+        <!-- Container for Navigation -->
+        <div class="
+                navigation
+        ">
+            <a href="" target="_blank">
+                <h3 class="
+                        text-lg
+                        noto-links font-effect text-left
+                "> 
+                    ABOUT
+                </h3>
+            </a>
 
+            <a href="" target="_blank">
+                <h3 class="
+                        text-lg
+                        noto-links font-effect text-left
+                "> 
+                    RESEARCH
+                </h3>
+            </a>
+            
+            <PublicationLink/>
+        </div>
+    </div>
     <!-- Container for Social links -->
     <!-- NOTE:
     - The margin needs to change after the other contents are filled in
     
     -->
     <div class="
-            w-1/3 mt-[clamp(2rem,5rem+5vh,30rem)] mb-[clamp(2rem,5vh,4rem)]
+            w-1/3 mb-6
     ">
         <Socials/>
     </div>
@@ -75,5 +61,6 @@ import { useJsonFetch } from '@/composables/useJsonFetch.js';
 import Profile from '@/components/left-layout/Profile.vue';
 import Socials from '@/components/left-layout/Socials.vue'
 import PublicationLink from '@/components/left-layout/PublicationLink.vue';
+import PortfolioImage from '@/components/left-layout/PortfolioImage.vue';
 
 </script>
