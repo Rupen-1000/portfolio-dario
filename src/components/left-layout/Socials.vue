@@ -14,7 +14,8 @@
          <!-- Also add error handling -->
          <!-- Here comes a link with the icon, it's clickable,and on hover for 5 secs shows social name  -->
          <a :href="values.link" target="_blank" rel="noopener noreferrer">
-            <Icon :name="socialName" class="social-icons"/>
+            <Icon :name="socialName" 
+                  class="social-icons hover-shadow"/>
             <!-- DEBUG: Below code creates problems!!! -->
             <!-- <span 
                class="

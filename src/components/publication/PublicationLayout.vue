@@ -14,9 +14,11 @@
                     lg:text-[clamp(1rem,1vw+0.25rem,2rem)]
                     text-shadow-sm
                     break-words
+                    transition-all duration-200
+                    text-shadow-hover
               "> 
                 <span class="inline">{{ article.title }}</span>
-                <Icon :name="'diagonal-arrow'" class="arrow inline-block ml-1"/>
+                <Icon :name="'diagonal-arrow'" class="arrow hover-shadow inline-block ml-1"/>
               </h3>
               
           </div>

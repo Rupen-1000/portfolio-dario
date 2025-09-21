@@ -11,7 +11,10 @@
   stroke-width:1.3px;
 
   /* Drop shadow effect */
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
+  /* filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.05)); */
+  filter: drop-shadow(0 0 1.5px rgba(0,0,0,0.3))
+          drop-shadow(0 0 1px rgba(0,0,0,0.05));
+  transition: filter 0.3s ease;
 }
 
 .arrow {
@@ -23,13 +26,12 @@
   stroke-width:5px;
 
   /* Drop shadow effect */
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.3))
+          drop-shadow(0 0 1px rgba(0,0,0,0.05));
+
+  transition: filter 0.3s ease;
 }
 
-.font-effect {
-    /* Drop shadow effect */
-    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
-}
 
 .img-face {
   object-fit: contain;
@@ -50,4 +52,19 @@
 /* If using display mode (block equations), maybe smaller default, or adjust margin */
 .katex-display {
   font-size: 1em !important;
+}
+
+/* globals.css or a component style */
+.text-shadow-sm {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.group:hover .text-shadow-hover {
+  text-shadow: 0 0 2px rgba(0,0,0,1), 
+               0 0 2px rgba(0,0,0,0.5);
+}
+
+.group:hover .hover-shadow {
+  filter: drop-shadow(0 0 1px rgba(0,0,0,1)) 
+          drop-shadow(0 0 1px rgba(0,0,0,0.5));
 }

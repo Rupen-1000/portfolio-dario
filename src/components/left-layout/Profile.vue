@@ -6,10 +6,9 @@
         <div v-else>
 
             <h1 class="
-                border-2 border-blue-900 rounded-lg
-                noto-h1 font-effect text-right
+                noto-h1 text-shadow-sm text-right
                 text-3xl md:text-5xl
-                lg:text-5xl
+                lg:text-[clamp(2rem,2vw+0.5rem,3rem)]
                 md:-mb-1
                 lg:text-left lg:noto-h1 [font-weight:700]
                 [letter-spacing:0.1rem]
@@ -18,9 +17,8 @@
             </h1>
 
             <h2 class="
-                border-2 border-blue-700 rounded-lg
-                text-lg md:text-xl lg:text-[clamp(1.5rem,2vw,4rem)] lg:max-w-[30ch]
-                noto-h2 font-effect text-right
+                text-lg md:text-xl lg:text-[clamp(1.5rem,1.5vw+0.5rem,2rem)] 
+                noto-h2 text-shadow-sm text-right
                 lg:text-left lg:noto-h2 [font-weight:500]
                 lg:items-start
             "> 
@@ -28,10 +26,9 @@
             </h2>
             
             <h3 class="
-                border-2 border-blue-400 rounded-lg
                 w-3/4 ml-auto lg:ml-0 lg:mr-0
-                text-md md:text-xl lg:text-[clamp(1.5rem,1vw,3rem)] lg:max-w-[50ch]
-                noto-h3 font-effect text-right
+                text-md md:text-xl lg:text-[clamp(1rem,1vw+0.4rem,1.5rem)]
+                noto-h3 font-[300] text-shadow-sm text-right
                 mt-2 md:mt-3
                 lg:w-full
                 lg:text-left

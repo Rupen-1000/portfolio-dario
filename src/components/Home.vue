@@ -4,10 +4,6 @@
     </div>
 </template> -->
 
-<!-- 
-//TODO: how you can create better shadow effect as Figma.
--->
-
 <template>
   <!--
     Wrapper for the whole layout.
@@ -15,7 +11,6 @@
       - Contain the width of the display content and control the x margin
   -->
   <div class="
-          border-2 border-purple-500 rounded-lg
           flex flex-col lg:flex-row justify-between items-stretch
           min-h-screen lg:h-screen w-full
           pt-6 pb-0
@@ -37,7 +32,6 @@
     
     <!-- This is for the Nav Bar -->
     <div v-else class="
-            border-2 border-blue-500 rounded-lg
             flex flex-col justify-between
             min-w-[300px]
             
@@ -51,7 +45,6 @@
     <!-- This is for the Main Content area. -->
     <!-- Content area is scrollable but only for screens >lg -->
     <div class="
-          border-2 border-green-500 rounded-lg 
           flex-1
           p-4 lg:pr-8 pl-8 pt-8 
           h-full

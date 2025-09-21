@@ -5,15 +5,15 @@
                 group mt-2 lg:mt-0
         ">
             <h3 class="
-                    lg:text-lg text-sm 
-                    noto-links font-effect lg:text-left
-                    inline-block
+                    lg:text-[clamp(0.825rem,1vw+0.5rem,1.2rem)] text-sm 
+                    noto-links text-shadow-sm lg:text-left
+                    inline-block text-shadow-hover
                     
             ">
                 PUBLICATIONS 
             </h3>
             
-            <Icon :name="'diagonal-arrow'" class="arrow"/>
+            <Icon :name="'diagonal-arrow'" class="arrow hover-shadow"/>
         </div>
 
     </a>

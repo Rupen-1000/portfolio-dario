@@ -11,7 +11,8 @@
 <template>
     <!-- Container for Portfolio image -->
     <div class="space-y-4 flex-none">
-        <PortfolioImage/>
+        
+        <PortfolioImage class="ml-2"/>
 
         <!-- Container for Profile -->
         <div class="profile">
@@ -20,27 +21,30 @@
         
         <!-- Container for Navigation -->
         <div class="
-                navigation
+                space-y-3 flex-none
+                mt-10
         ">
-            <a href="" target="_blank">
+            <a href="" class="block group">
                 <h3 class="
-                        text-lg
-                        noto-links font-effect text-left
+                        text-[clamp(0.825rem,1vw+0.5rem,1.2rem)]
+                        noto-links text-shadow-sm text-left
+                        text-shadow-hover
                 "> 
                     ABOUT
                 </h3>
             </a>
 
-            <a href="" target="_blank">
+            <a href="" class="block group">
                 <h3 class="
-                        text-lg
-                        noto-links font-effect text-left
+                        text-[clamp(0.825rem,1vw+0.5rem,1.2rem)]
+                        noto-links text-shadow-sm text-left
+                        text-shadow-hover
                 "> 
                     RESEARCH
                 </h3>
             </a>
             
-            <PublicationLink/>
+            <PublicationLink class="block"/>
         </div>
     </div>
     <!-- Container for Social links -->
