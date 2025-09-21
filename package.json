@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.9.0",
+    "katex": "^0.16.22",
     "svgo": "^4.0.0",
     "vite-svg-loader": "^5.1.0",
     "vue": "^3.5.18",
+    "vue-katex-auto-render": "^0.2.0",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {

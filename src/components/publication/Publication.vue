@@ -1,29 +1,57 @@
  <!-- For rendering each publication item -->
 <template>
-  <div class="p-6">
+  <div class="
+          min-h-screen lg:h-screen w-full items-stretch
+          max-w-[1440px] mx-auto
+          pt-6 pl-8 pr-6 
+          md:pt-10 md:pl-12 md:pr-8
+          lg:pt-15 lg:pl-32 lg:pr-16
+  ">
+    <!-- Top Header container -->
     <h1 class="
-          noto-h1
+          noto-h1 font-[650] [letter-spacing:0.05rem] 
+          text-xl md:text-4xl lg:text-5xl
+          text-shadow-sm
     ">
       Publications
     </h1>
 
-    <div v-if="loading">Loading...</div>
-    <div v-else-if="error">Error: {{ error }}</div>
-    <!-- Container for the socials -->
-    <div v-else >
-      <div v-for="year in publicationsSorted"
-        :key="year"
-      >
-        <h2> {{ year }} </h2>
-        
-        <div v-for="article in data[year]"
-          :key="article.doi"
+    <div class="
+          pt-1
+    ">
+      <div v-if="loading">Loading...</div>
+      <div v-else-if="error">Error: {{ error }}</div>
+      <!-- Container for the socials -->
+      <div v-else>
+
+        <div v-for="year in publicationsSorted"
+          :key="year"
         >
-          <PublicationLayout :article="article"/>
+          <!-- Container for Year -->
+          <h2 class="
+              noto-h2 font-[600] 
+              text-xl md:text-3xl lg:text-4xl
+              text-shadow-sm
+              pt-3 pb-6
+              md:pt-6 md:pb-10
+              lg:pt-12
+              
+          "> 
+            {{ year }} 
+          </h2>
+          
+          <!-- Individual publication containers -->
+          <div v-for="article in data[year]"
+            :key="article.doi"
+            class="
+              pb-4 md:pb-6 lg:pb-8
+
+          ">
+            <PublicationLayout :article="article"/>
+          </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 

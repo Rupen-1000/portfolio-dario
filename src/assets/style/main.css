@@ -12,38 +12,27 @@
   .noto-h1 {
     font-family: var(--font-sans);
     font-variation-settings: "wdth" 100;
-    font-weight: 650;
-    /* fluid font size with clamp */
-    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
-    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+    font-weight: var(--font-weight, 650);
   }
   .noto-h2 {
     font-family: var(--font-sans);
     font-variation-settings: "wdth" 90;
-    font-weight: 500;
-    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
-    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+    font-weight: var(--font-weight, 500);
   }
   .noto-h3 {
     font-family: var(--font-sans);
     font-variation-settings: "wdth" 90;
-    font-weight: 350;
-    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
-    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+    font-weight: var(--font-weight, 350);
   }
   .noto-links {
     font-family: var(--font-sans);
     font-variation-settings: "wdth" 100;
-    font-weight: 500;
+    font-weight: var(--font-weight, 500);
     letter-spacing: 0.1rem;
-    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
-    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
   }
   .noto-body {
     font-family: var(--font-sans);
     font-variation-settings: "wdth" 100;
-    font-weight: 400;
-    font-size: clamp(1rem, 1.964vw + 0.607rem, 2.375rem);
-    line-height: clamp(1.2rem, 3.375vw + 0.525rem, 3.563rem);
+    font-weight: var(--font-weight, 400);
   }
 }

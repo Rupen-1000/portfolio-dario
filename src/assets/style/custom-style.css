@@ -37,3 +37,17 @@
   transform: scale(1.2) translateY(7%);
 
 }
+
+/* KATEX Settings */
+
+.katex {
+  font-size: 1em !important;     
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* If using display mode (block equations), maybe smaller default, or adjust margin */
+.katex-display {
+  font-size: 1em !important;
+}
