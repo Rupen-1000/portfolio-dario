@@ -9,7 +9,7 @@
                 border-2 border-blue-900 rounded-lg
                 noto-h1 font-effect text-right
                 text-3xl md:text-5xl
-                lg:text-[clamp(1rem, 1.964vw + 0.607rem, 2.375rem)]
+                lg:text-5xl
                 md:-mb-1
                 lg:text-left lg:noto-h1 [font-weight:700]
                 [letter-spacing:0.1rem]
@@ -33,7 +33,7 @@
                 text-md md:text-xl lg:text-[clamp(1.5rem,1vw,3rem)] lg:max-w-[50ch]
                 noto-h3 font-effect text-right
                 mt-2 md:mt-3
-                lg:w-9/10
+                lg:w-full
                 lg:text-left
                 lg:items-start
             ">

@@ -7,11 +7,16 @@
 <template>
 
     <div class="about">
-
+        <About/>
     </div>
 
     <div class="research">
 
     </div>
 
- </template>
+</template>
+
+<script setup>
+import About from '@/components/right-layout/About.vue';
+
+</script>

@@ -5,16 +5,10 @@
 </template> -->
 
 <!-- 
-Before working on individual blocks, start with separating the view space, both for mobile and desktop view. DONE!!!
-  - Remember to remove the boxes after finishing editing. Tinker with exact sizes after you have put in the content! DONE!!!
-Then get the icons. Setup the files necessary for it. DONE!!!
-
-See how you can create that shadow effect and put it in assests as it'll be used everywhere. 
-
+//TODO: how you can create better shadow effect as Figma.
 -->
 
 <template>
-  <!--  -->
   <!--
     Wrapper for the whole layout.
     Note: 
@@ -22,11 +16,12 @@ See how you can create that shadow effect and put it in assests as it'll be used
   -->
   <div class="
           border-2 border-purple-500 rounded-lg
-          flex flex-col lg:flex-row items-stretch
+          flex flex-col lg:flex-row justify-between items-stretch
           min-h-screen lg:h-screen w-full
           pt-6 pb-0
-          px-6 lg:px-5
-          lg:max-w-[85vw] lg:mx-auto
+          px-6 lg:px-8
+          max-w-[1440px] mx-auto
+
   ">
     <!-- Container shows either top bar or nav bar depending on the view. -->
     
@@ -43,10 +38,12 @@ See how you can create that shadow effect and put it in assests as it'll be used
     <!-- This is for the Nav Bar -->
     <div v-else class="
             border-2 border-blue-500 rounded-lg
-            flex-1
             flex flex-col justify-between
-            pr-5 pl-5 pt-2 w-full h-full
-            lg:mr-5
+            min-w-[300px]
+            
+            flex-shrink-0
+            h-full
+            pr-5 pl-5 pt-2
     ">
        <NavBar/>
     </div>
@@ -54,11 +51,12 @@ See how you can create that shadow effect and put it in assests as it'll be used
     <!-- This is for the Main Content area. -->
     <!-- Content area is scrollable but only for screens >lg -->
     <div class="
-            border-1 border-green-500 rounded-lg 
-            flex-1
-            p-4 lg:pr-8 pl-8 pt-8 
-            w-full h-full
-            lg:h-full
+          border-2 border-green-500 rounded-lg 
+          flex-1
+          p-4 lg:pr-8 pl-8 pt-8 
+          h-full
+          lg:max-w-[600px]
+          overflow-y-auto
     ">
       <Content/>
     </div>
@@ -66,22 +64,11 @@ See how you can create that shadow effect and put it in assests as it'll be used
 </template>
 
 <script setup>
-import { useBreakpoints, breakpointsTailwind } from '@vueuse/core';
-import { computed } from 'vue';
+import { smallDisplayCheck } from '@/composables/displayCheck.js';
 import TopBar from '@/components/TopBar.vue';
 import NavBar from '@/components/NavBar.vue';
 import Content from '@/components/Content.vue';
 
-// NOTE: Maybe move this to a Js file and import if same variable used across multiple components.
-// Standard Tailwind CSS breakpoints as a reference.
-const breakpoints = useBreakpoints(breakpointsTailwind);
-
-// Create a reactive variable that is true for a mobile-sized viewport.
-const isMobile = breakpoints.smaller('lg');
+const isMobile = smallDisplayCheck();
 
 </script>
-
-
-<style scoped>
-
-</style>
