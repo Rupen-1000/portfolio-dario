@@ -1,29 +1,88 @@
 {
-    "2025":[
+    "2025": [
         {
-            "title":"Hidden Orders in spin-orbit-entangled correlated insulators",
-            "authors":"Leonid V. Pourovskii, Dario Fiore Mosca, L. Celiberti, S. Khmelevskyi, A. Paramekanti and C. Franchini",
-            "journal":"Nature Review Materials",
+            "title": "Magnetic behavior of 5d1 Re-based double perovskite Sr2ZnReO6 (Preprint)",
+            "authors": "M. Maikudi Isah, B. Dalal, X. Kang, Dario Fiore Mosca, I. John Onuorah, V. Scagnoli, P. Bonfà, R. De Renzi, A. A. Belik, C. Franchini, K. Yamaura and S. Sanna",
+            "journal": "arXiv preprint",
+            "doi": "https://doi.org/10.48550/arXiv.2509.04071"
+        },
+        {
+            "title": "Hidden Orders in spin-orbit-entangled correlated insulators",
+            "authors": "Leonid V. Pourovskii, Dario Fiore Mosca, L. Celiberti, S. Khmelevskyi, A. Paramekanti and C. Franchini",
+            "journal": "Nature Review Materials",
             "doi": "https://doi.org/10.1038/s41578-025-00824-z"
         },
         {
-            "title":"Antiferro octupolar order in the 5d1 double perovskite Sr2MgReO6 and its spectroscopic signatures",
-            "authors":"Dario Fiore Mosca and Leonid V. Pourovskii",
-            "journal":"Physical Review Research (Letter), 7, L032016",
-            "doi":"https://doi.org/10.1103/tvp5-mpy9"
+            "title": "Antiferro octupolar order in the 5d1 double perovskite Sr2MgReO6 and its spectroscopic signatures",
+            "authors": "Dario Fiore Mosca and Leonid V. Pourovskii",
+            "journal": "Physical Review Research (Letter), 7, L032016",
+            "doi": "https://doi.org/10.1103/tvp5-mpy9"
         }
-
     ],
-    
-    "2024":[
+
+    "2024": [
         {
-            "title":"Origin of Magnetism in a Supposedly Nonmagnetic Osmium Oxide",
-            "authors":"Stefano Agrestini, F. Borgatti, P. Florio, J. Frassineti, Dario Fiore Mosca, Q. Faure, B. Detlefs, C. J. Sahle, S. Francoual, J. Choi, M.Garcia-Fernandez, K.-J. Zhou, V. F. Mitrović, P. M. Woodward, G. Ghiringhelli, C. Franchini, F. Boscherini, S. Sanna and M. Moretti Sala",
-            "journal":"Physical Review Letters",
-            "doi":"https://doi.org/10.1103/PhysRevLett.133.066501"
+            "title": "Interplay of superexchange and vibronic effects in the hidden order of Ba2MgReO6 from first principles",
+            "authors": "Dario Fiore Mosca, Cesare Franchini and Leonid V. Pourovskii",
+            "journal": "Physical Review B (Letter), 110, L201101",
+            "doi": "https://doi.org/10.1103/PhysRevB.110.L201101"
+        },
+        {
+            "title": "Origin of Magnetism in a Supposedly Nonmagnetic Osmium Oxide",
+            "authors": "Stefano Agrestini, F. Borgatti, P. Florio, J. Frassineti, Dario Fiore Mosca, Q. Faure, B. Detlefs, C. J. Sahle, S. Francoual, J. Choi, M. Garcia-Fernandez, K.-J. Zhou, V. F. Mitrović, P. M. Woodward, G. Ghiringhelli, C. Franchini, F. Boscherini, S. Sanna and M. Moretti Sala",
+            "journal": "Physical Review Letters, 133, 066501",
+            "doi": "https://doi.org/10.1103/PhysRevLett.133.066501"
+        },
+        {
+            "title": "Spectroscopic signatures and origin of a hidden order in Ba2MgReO6",
+            "authors": "Jian-Rui Soh, M. E. Merkel, L. V. Pourovskii, I. Živković, O. Malanyuk, J. Pásztorová, S. Francoual, D. Hirai, A. Urru, D. Tolj, Dario Fiore Mosca, O. Yazyev, N. A. Spaldin, C. Ederer, H. M. Rønnow",
+            "journal": "Nature Communications, 15, 10383",
+            "doi": "https://doi.org/10.1038/s41467-024-53893-z"
+        },
+        {
+            "title": "Spin-orbital Jahn-Teller bipolarons",
+            "authors": "Lorenzo Celiberti, Dario Fiore Mosca, G. Allodi, L. V. Pourovskii, A. Tassetti, P. C. Forino, R. Cong, E. Garcia, P. M. Tran, R. De Renzi, P. M. Woodward, V. F. Mitrović, S. Sanna and C. Franchini",
+            "journal": "Nature Communications, 15, 2429",
+            "doi": "https://doi.org/10.1038/s41467-024-46621-0"
+        },
+        {
+            "title": "The Mott transition in the 5d1 compound Ba2NaOsO6: a DFT+DMFT study with PAW spinor projectors",
+            "authors": "Dario Fiore Mosca, H. Schnait, L. Celiberti, M. Aichhorn, Cesare Franchini",
+            "journal": "Computational Materials Science, 233, 112764",
+            "doi": "https://doi.org/10.1016/j.commatsci.2023.112764"
+        }
+    ],
+
+    "2022": [
+        {
+            "title": "Modelling Magnetic Multipolar Phases in Density Functional Theory",
+            "authors": "Dario Fiore Mosca, L. V. Pourovskii and Cesare Franchini",
+            "journal": "Physical Review B, 106, 035127",
+            "doi": "https://doi.org/10.1103/PhysRevB.106.035127"
+        }
+    ],
+
+    "2021": [
+        {
+            "title": "Ferro-octupolar Order and Low-Energy Excitations in d2 DPs of Osmium",
+            "authors": "Leonid V. Pourovskii, Dario Fiore Mosca and Cesare Franchini",
+            "journal": "Physical Review Letters, 127, 237201",
+            "doi": "https://doi.org/10.1103/PhysRevLett.127.237201"
+        },
+        {
+            "title": "Interplay between multipolar spin interactions, Jahn-Teller effect, and electronic correlation in a Jeff = 3/2 insulator",
+            "authors": "Dario Fiore Mosca, L. V. Pourovskii, B. H. Kim, P. Liu, S. Sanna, F. Boscherini, S. Khmelevskyi and C. Franchini",
+            "journal": "Physical Review B, 103, 104401",
+            "doi": "https://doi.org/10.1103/PhysRevB.103.104401"
+        }
+    ],
+
+    "2020": [
+        {
+            "title": "Doping Evolution of the Local Electronic and Structural Properties of the Double Perovskite Ba2Na1–xCaxOsO6",
+            "authors": "J. K. Kesavan, Dario Fiore Mosca, S. Sanna, F. Borgatti, G. Schuck, P. M. Tran, P. M. Woodward, V. F. Mitrović, C. Franchini and F. Boscherini",
+            "journal": "Journal of Physical Chemistry C, 124, 30, 16577–16585",
+            "doi": "https://doi.org/10.1021/acs.jpcc.0c04807"
         }
     ]
-
-
 }
-
