@@ -5,22 +5,18 @@
 </template> -->
 
 <template>
-  <!--
-    Wrapper for the whole layout.
-    Note: 
-      - Contain the width of the display content and control the x margin
-  -->
+  <!-- Wrapper for the whole layout. -->
   <div class="
           flex flex-col lg:flex-row justify-between items-stretch
           min-h-screen lg:h-screen w-full
           pt-6 pb-0
-          px-6 lg:px-8
+          px-6 md:px-10 lg:px-8
           max-w-[1440px] mx-auto
 
   ">
     <!-- Container shows either top bar or nav bar depending on the view. -->
     
-    <!-- This is for the Top Bar -->
+    <!-- The Top Bar -->
     <div v-if="isMobile" class="
             flex flex-col
             items-end justify-end-safe
@@ -30,23 +26,25 @@
       <TopBar/>
     </div>
     
-    <!-- This is for the Nav Bar -->
+    <!-- The Nav Bar -->
     <div v-else class="
             flex flex-col justify-between
-            min-w-[300px]
-            
+            min-w-[300px]           
             flex-shrink-0
+            flex-1
             h-full
             pr-5 pl-5 pt-2
     ">
        <NavBar/>
     </div>
 
-    <!-- This is for the Main Content area. -->
+    <!-- The Main Content -->
     <!-- Content area is scrollable but only for screens >lg -->
     <div class="
-          flex-1
-          p-4 lg:pr-8 pl-8 pt-8 
+          border-2 border-green-600 rounded-lg
+          flex-1 flex-shrink-1
+          pt-5 md:pt-10
+          lg:pr-2 lg:pl-2 lg:pt-2 
           h-full
           lg:max-w-[600px]
           overflow-y-auto

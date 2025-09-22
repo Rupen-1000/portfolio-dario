@@ -24,7 +24,8 @@
                 space-y-3 flex-none
                 mt-10
         ">
-            <a href="" class="block group">
+            <!-- Container for future! -->
+            <!-- <a href="" class="block group">
                 <h3 class="
                         text-[clamp(0.825rem,1vw+0.5rem,1.2rem)]
                         noto-links text-shadow-sm text-left
@@ -42,7 +43,7 @@
                 "> 
                     RESEARCH
                 </h3>
-            </a>
+            </a> -->
             
             <PublicationLink class="block"/>
         </div>
