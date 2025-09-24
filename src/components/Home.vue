@@ -48,6 +48,7 @@
           h-full
           lg:max-w-[600px]
           overflow-y-auto
+          scrollbar-hide
     ">
       <Content/>
     </div>
@@ -63,3 +64,15 @@ import Content from '@/components/Content.vue';
 const isMobile = smallDisplayCheck();
 
 </script>
+
+<!-- Tailwind config or CSS -->
+<style scoped> 
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+</style>

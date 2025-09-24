@@ -14,7 +14,7 @@
                 text-[clamp(1.25rem,2vw+0.5rem,2.5rem)]
                 md:text-[clamp(1.75rem,2vw+0.8rem,3.5rem)]
                 lg:text-[clamp(1.25rem,2vw+0.3rem,2rem)]
-                mb-6
+                mb-4 lg:mb-6
             ">
                 {{ data.section }}
             </h2>
@@ -24,7 +24,7 @@
                 v-for="item in data.content"
                 class="                
                     justify-center
-                    pl-0 md:pl-12 lg:pl-2
+                    pl-0 md:p-2 lg:pl-2
                     mb-3
             ">
                 <ResearchLayout :researchItem="item"/>
