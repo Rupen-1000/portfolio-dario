@@ -2,9 +2,9 @@
     <!-- Main container -->
     <div class="
         rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.15)]
-        p-2 md:p-5 lg:p-4 transition-all duration-300 ease-in-out"
+        p-2 md:p-5 lg:pl-2 lg:pr-4 lg:py-4 transition-all duration-300 ease-in-out"
         :class="{ 
-            'max-h-[350px] md: lg:h-[350px] overflow-hidden': !expanded
+            'max-h-[350px] lg:h-[250px] overflow-hidden': !expanded
         }"
     >
         <div
@@ -18,11 +18,13 @@
             <div v-if="!isMobile"
                 class="overflow-hidden flex-shrink-0"
                 :class="expanded 
-                    ? 'w-[clamp(60px,6vw,120px)] h-[clamp(60px,6vw,120px)]' 
-                    : 'w-[clamp(50px,2vw,75px)] h-[clamp(50px,2vw,65px)]'"
+                    // Expand
+                    ? 'w-[clamp(300px,6vw,120px)] h-[clamp(240px,6vw,120px)] item-center'
+                    // Contract
+                    : 'w-[clamp(100px,2vw+50px,150px)] h-[clamp(80px,2vw+50px,120px)]'"
             >
                     <img :src="'/images/' + researchItem.image" 
-                        class="w-full h-full object cover p-1"
+                        class="w-full h-full object-cover"
                     />
             </div>
 
@@ -31,7 +33,7 @@
             -->
             <div class="flex-1">
                 <!-- Research Title -->
-                <h2 class="
+                <h2 v-katex class="
                     noto-h2 font-[450] text-shadow-sm
                     text-[clamp(1rem,1vw+0.35rem,1.25rem)]
                     md:text-[clamp(1.75rem,2vw+0.8rem,3.5rem)]
@@ -54,7 +56,7 @@
                             lg:text-[clamp(0.825rem,1vw+0.3rem,1.25rem)]
                             text-shadow-md px-1 mb-2 text-left"
                     >
-                        <p class="inline">
+                        <p v-katex class="inline">
                             {{ paragraph }}
                             <!-- Only show button on last paragraph -->
                             <button v-if="idx === researchItem.description.length - 1"
@@ -67,7 +69,7 @@
                 </div>
                 <!-- Contracted View -->
                 <div v-else class="relative">
-                    <p class="
+                    <p v-katex class="
                         noto-h3 font-[350] lg:font-[400]
                         text-[clamp(0.825rem,1vw+0.4rem,1rem)]
                         md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
