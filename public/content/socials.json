@@ -1,18 +1,18 @@
 {
     "github":{
-        "link":"https://github.com",
+        "link":"https://github.com/dariofiosca",
         "name":"GitHub"
     },
     "google-scholar":{
-        "link":"https://scholar.google.com/",
+        "link":"https://scholar.google.com/citations?user=IZl7fS0AAAAJ&hl=en",
         "name":"Google Scholar"
     },
     "email":{
-        "link":"john.doe@gmail.com",
+        "link":"dario.fiore.mosca@univie.ac.at",
         "name":"E-mail"
     },
     "linkedin":{
-        "link":"https://linkedin.com",
+        "link":"https://www.linkedin.com/in/dario-fiore-mosca-31b173157/",
         "name":"LinkedIn"
     }
 }
