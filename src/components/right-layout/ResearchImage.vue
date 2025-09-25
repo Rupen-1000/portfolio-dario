@@ -1,7 +1,6 @@
 <template>
     <div v-if="!isMobile"
         class="
-            border border-red-500
             flex items-center justify-center
             overflow-hidden flex-shrink-0"
         :class="expanded 
@@ -25,7 +24,7 @@ defineProps({
     required: true
   },
   expanded: {
-    type: Object,
+    type: Boolean,
     required: true
   }
 });

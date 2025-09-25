@@ -11,7 +11,15 @@
                 "Such SO polarons were recently discovered in Ca-doped double perovskite Ba$_2$NaOsO$_6$. Interestingly, although  being mobile quasiparticles, polarons can become frozen at temperatures relevant for magnetic exchange interactions. Their presence can thus dramatically alter the effective interactions and stabilize novel quantum magnetic phases in strongly SO-coupled TMOs."
             ],
             "image":"multipolar.jpeg",
-            "link":"https://scholar.google.com/"
+            "external_links": 
+                {
+                    "preceed_desc":"Do you want to know more? Check out these publications.",
+                    "links":[
+                        "https://scholar.google.com/",
+                        "https://scholar.google.com/",
+                        "https://scholar.google.com/"
+                    ]
+                }
         },
         {
             "title":"Hidden Orders in strong Spin-Orbit systems",
@@ -23,7 +31,15 @@
                 "5d double perovskites provide an ideal platform for investigating such effects. In these materials, the large interatomic distance of the magnetic ions, combined with strong correlation and strong SO produces high total angular momentum states with active multipolar degrees of freedom, beyond conventional dipoles. "
             ],
             "image":"polaron.jpeg",
-            "link":"https://scholar.google.com/"
+            "external_links": 
+                {
+                    "preceed_desc":"Do you want to know more? Check out these publications.",
+                    "links":[
+                        "https://scholar.google.com/",
+                        "https://scholar.google.com/",
+                        "https://scholar.google.com/"
+                    ]
+                }
         },
         {
             "title":"Exchange Interactions from First Principles",
@@ -35,7 +51,15 @@
                 "MagInt is an open source code that implements the FT-HI method in Wien2k+TRIQS. You can find it on GitHub!"
             ],
             "image":"polaron.jpeg",
-            "link":"https://scholar.google.com/"
+            "external_links": 
+                {
+                    "preceed_desc":"Do you want to know more? Check out these publications.",
+                    "links":[
+                        "https://scholar.google.com/",
+                        "https://scholar.google.com/",
+                        "https://scholar.google.com/"
+                    ]
+                }
         }
     ]
 }

@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-// Load file using the composable
+
 import Icon from '@/components/general/Icon.vue';
 
 </script>

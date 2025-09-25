@@ -1,7 +1,5 @@
 <template>
-    <div class="
-        border-2 border-red-500 rounded-lg
-    ">
+    <div class="">
         <div v-if="loading">Loading...</div>
         <div v-else-if="error">Error: {{ error }}</div>
         <div v-else>

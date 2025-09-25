@@ -41,7 +41,6 @@
     <!-- The Main Content -->
     <!-- Content area is scrollable but only for screens >lg -->
     <div class="
-          border-2 border-green-600 rounded-lg
           flex-1 flex-shrink-1
           pt-5 md:pt-10
           lg:pr-2 lg:pl-2 lg:pt-2 

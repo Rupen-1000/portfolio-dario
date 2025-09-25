@@ -9,24 +9,20 @@
     >
         <div
             class="flex items-start"
-            :class="{ 'border flex-col items-center text-center': expanded }"
+            :class="{ 'flex-col items-center text-center': expanded }"
         >
 
-            <!-- 
-                Image container
-                Need to add cropping effect here in default display 
-            -->
-                <ResearchImage 
-                    :researchItem="researchItem"
-                    :expanded="expanded"
-                    :class="expanded?'mx-auto':'mx-0'"
-                />
+            <!-- Image container -->
+            <ResearchImage 
+                :researchItem="researchItem"
+                :expanded="expanded"
+                :class="expanded?'mx-auto':'mx-0'"
+            />
                 
             <!-- 
                 Container for Title and Description 
             -->
             <div class="
-                    border border-blue-800
                     flex-1"
                  :class="{'mt-3':expanded}"
             >
@@ -46,29 +42,41 @@
                 <!-- Research Description -->
                  <!-- Expanded view -->
                 <div v-if="expanded">
-                    <!-- //OPTIMIZE: lg here. //BUG: Change here second-->
                     <div v-for="(paragraph, idx) in researchItem.description" :key="idx"
                         class="
-                            noto-h3 font-[350] lg:font-[400]
+                            noto-h3 font-[350]  lg:font-[400]
                             text-[clamp(0.825rem,1vw+0.4rem,1rem)]
                             md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
                             lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
-                            text-shadow-md px-1 mb-2 text-left"
-                    >
+                            text-shadow-md px-1 mb-2 text-left
+
+                        ">
                         <p v-katex class="inline">
                             {{ paragraph }}
-                            <!-- Only show button on last paragraph -->
+                            <!-- Only show last paragraph -->
                             <button v-if="idx === researchItem.description.length - 1"
                                     @click="toggleExpand"
-                                    class="ml-2 text-blue-600 hover:underline">
-                                less
+                                    class="ml-2 transition-all duration-200 text-shadow-sm ref-shadow-hover">
+                                less...
                             </button>
                         </p>
+
+                        <div v-if="idx === researchItem.description.length - 1" class="mt-2">
+                            <span class="inline"> {{ researchItem.external_links.preceed_desc }}</span>
+                            <span
+                                v-for="(link, index) in researchItem.external_links.links"
+                                :key="index"
+                                class="ml-1"
+                                >
+                                    <a :href="link" target="_blank"  rel="noopener noreferrer">
+                                        <span class="inline transition-all duration-200 text-shadow-sm ref-shadow-hover">[{{ index+1 }}]</span>
+                                    </a>
+                                </span>
+                        </div>
                     </div>
                 </div>
                 <!-- Contracted View -->
                 <div v-else class="relative">
-                    <!-- //OPTIMIZE: lg here-->
                     <p v-katex class="
                         noto-h3 font-[350] lg:font-[400]
                         text-[clamp(0.825rem,1vw+0.4rem,1rem)]
@@ -79,19 +87,17 @@
                         {{ researchItem.description[0] }}
                     </p>
 
-                    <div class="absolute bottom-0 right-0 bg-white pl-1">
-                        <button
-                            @click="toggleExpand"
-                            class="
-                                noto-h3 font-[350] text-blue-600 lg:font-[400]
-                                text-[clamp(0.825rem,1vw+0.4rem,1rem)]
-                                md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
-                                lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
-                                hover:underline
-                            ">
+                    <button
+                        @click="toggleExpand"
+                        class="
+                            noto-h3 font-[350] lg:font-[400]
+                            text-[clamp(0.825rem,1vw+0.4rem,1rem)]
+                            md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
+                            lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
+                            px-1 transition-all duration-200 text-shadow-sm ref-shadow-hover
+                        ">
                             more...
-                        </button>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

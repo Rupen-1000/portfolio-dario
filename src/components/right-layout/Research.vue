@@ -1,13 +1,10 @@
 <template>
-    <div class="
-        border-2 border-blue-500 rounded-lg
-    ">
+    <div class="">
         <div v-if="loading">Loading...</div>
         <div v-else-if="error">Error: {{ error }}</div>
         <div v-else>
             <!-- Header -->
             <h2 class="
-                border-2 border-blue-200 rounded-lg
                 noto-h2 font-[650] text-shadow-sm
                 flex justify-center
                 lg:justify-start
@@ -31,9 +28,6 @@
             </div>
         
         </div>
-
-
-
     </div>
 
 </template>
