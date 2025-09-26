@@ -6,9 +6,9 @@
             "description":[
                 "In many materials, ordered phases like the atomic arrangements in crystals or the alignement of magnetic moments can be straightforwardly characterized. \"Hidden order\" instead refers to phase transitions where thermodynamic signatures of ordering are clear, yet the order parameter remains elusive to direct detection.",
                 
-                "These unconventional states often arise from strong spin-orbit coupling, which entangles intersite exchange, electron-magnetic, and electron-lattice interactions. Such complexity makes them inaccessible to standard probes and beyond the reach of conventional theories of insulating magnetism.",
+                "These unconventional states often arise from strong spin-orbit coupling, which entangles intersite exchange, classical electron-magnetic, and electron-lattice interactions. Such complexity makes them inaccessible to standard probes and beyond the reach of conventional theories of insulating magnetism.",
                 
-                "5d double perovskites provide an ideal platform for investigating such effects. In these materials, the large interatomic distance of the magnetic ions, combined with strong correlation and strong SO produces high total angular momentum states with active multipolar degrees of freedom, beyond conventional dipoles. "
+                "Double perovskites with $5d$ transition metal ions provide an ideal platform for investigating such effects. In these materials, the large interatomic distance of the magnetic ions, combined with strong correlation and strong spin-orbit effect produces high total angular momentum states with active multipolar degrees of freedom, beyond conventional dipoles."
             ],
             "image":"multipolar.jpeg",
             "external_links": 
@@ -26,9 +26,9 @@
             "description":[
                 "Polarons are quasiparticles emerging from the coupling of charge carriers with lattice vibrations (electron-phonon interaction). In solids, small polarons manifest as strongly localized states that produce local lattice distortions and introduce flat in-gap states, thereby preventing the insulator-metal transition. Classic examples include transition-metal oxides such as TiO$_2$ and manganites, where polaron formation plays a central role in their transport and optical properties.",
                 
-                "Beyond their standard form, polarons can couple to other internal degrees of freedom, giving rise to composite quasiparticles — for instance, magnetic polarons, Jahn-Teller polarons, and even ferroelectric polarons. In transition-metal oxides,  where spin-orbit (SO) coupling and strong electronic correlations coexist, this naturally raises the possibility of a new entity: the spin-orbital polaron.",
+                "Beyond their standard form, polarons can couple to other internal degrees of freedom, giving rise to composite quasiparticles — for instance, magnetic polarons, Jahn-Teller polarons, and even ferroelectric polarons. In transition-metal oxides,  where spin-orbit coupling and strong electronic correlations coexist, this naturally raises the possibility of a new entity: the spin-orbital polaron.",
 
-                "Such SO polarons were recently discovered in Ca-doped double perovskite Ba$_2$NaOsO$_6$. Interestingly, although  being mobile quasiparticles, polarons can become frozen at temperatures relevant for magnetic exchange interactions. Their presence can thus dramatically alter the effective interactions and stabilize novel quantum magnetic phases in strongly SO-coupled TMOs."
+                "Such spin-orbital polarons were recently discovered in Ca-doped double perovskite Ba$_2$NaOsO$_6$. Interestingly, although  being mobile quasiparticles, polarons can become frozen at temperatures relevant for magnetic exchange interactions. Their presence can thus dramatically alter the effective interactions and stabilize novel quantum magnetic phases."
             ],
             "image":"polaron.jpeg",
             "external_links": 
@@ -44,7 +44,7 @@
             "description":[
                 "First-principles calculations of exchange interactions are an essential tool for building realistic spin models, interpreting experimental data, and predicting novel magnetic phases in complex materials. Reliable calculations of exchange couplings enable description and uderstanding of magnetic systems and the underlying physics directly from the electronic structure, without relying on empirical parameters.",
 
-                "Force-theorem methods compute intersite exchange interactions from the DFT free-energy response to small tilts of ordered moments, assuming an effective Heisenberg Hamiltonian. The Force-Theorem in Hubbard-I (FT-HI) method extends this idea to perturbations around the paramagnetic state, which is easily available in DFT+DMFT within the Hubbard-I approximation. It makes the method especially advantageous in strongly correlated systems with competing multipolar orders, since it works as a post-processing tool, therefore avoiding the need for multiple self-consistent calculations of ordered phases.",
+                "Force-theorem methods compute intersite exchange interactions from the DFT free-energy response to small tilts of ordered moments, assuming an effective Heisenberg Hamiltonian. The Force-Theorem in Hubbard-I method extends this idea to perturbations around the paramagnetic state, readily available in DFT+DMFT within the Hubbard-I approximation. The method is especially advantageous for strongly correlated systems with competing multipolar orders since it avoids the need for multiple self-consistent calculations of ordered phases.",
 
                 "MagInt is an open source code that implements the FT-HI method in Wien2k+TRIQS."
             ],
