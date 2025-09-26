@@ -8,7 +8,7 @@
         },
         {
             "title": "Hidden Orders in spin-orbit-entangled correlated insulators",
-            "authors": "Leonid V. Pourovskii, Dario Fiore Mosca, L. Celiberti, S. Khmelevskyi, A. Paramekanti and C. Franchini",
+            "authors": "L. V. Pourovskii, Dario Fiore Mosca, L. Celiberti, S. Khmelevskyi, A. Paramekanti and C. Franchini",
             "journal": "Nature Review Materials",
             "doi": "https://doi.org/10.1038/s41578-025-00824-z"
         },
@@ -41,13 +41,13 @@
         },
         {
             "title": "Spin-orbital Jahn-Teller bipolarons",
-            "authors": "Lorenzo Celiberti, Dario Fiore Mosca, G. Allodi, L. V. Pourovskii, A. Tassetti, P. C. Forino, R. Cong, E. Garcia, P. M. Tran, R. De Renzi, P. M. Woodward, V. F. Mitrović, S. Sanna and C. Franchini",
+            "authors": "L. Celiberti, Dario Fiore Mosca, G. Allodi, L. V. Pourovskii, A. Tassetti, P. C. Forino, R. Cong, E. Garcia, P. M. Tran, R. De Renzi, P. M. Woodward, V. F. Mitrović, S. Sanna and C. Franchini",
             "journal": "Nature Communications, 15, 2429",
             "doi": "https://doi.org/10.1038/s41467-024-46621-0"
         },
         {
             "title": "The Mott transition in the $5d^1$ compound Ba$_2$NaOsO$_6$: a DFT+DMFT study with PAW spinor projectors",
-            "authors": "Dario Fiore Mosca, H. Schnait, L. Celiberti, M. Aichhorn, Cesare Franchini",
+            "authors": "Dario Fiore Mosca, H. Schnait, L. Celiberti, M. Aichhorn and C. Franchini",
             "journal": "Computational Materials Science, 233, 112764",
             "doi": "https://doi.org/10.1016/j.commatsci.2023.112764"
         }
@@ -56,7 +56,7 @@
     "2022": [
         {
             "title": "Modelling Magnetic Multipolar Phases in Density Functional Theory",
-            "authors": "Dario Fiore Mosca, L. V. Pourovskii and Cesare Franchini",
+            "authors": "Dario Fiore Mosca, Leonid V. Pourovskii and Cesare Franchini",
             "journal": "Physical Review B, 106, 035127",
             "doi": "https://doi.org/10.1103/PhysRevB.106.035127"
         }
