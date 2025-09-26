@@ -1,12 +1,7 @@
-<!-- <template>
-    <div class="default_image"> 
-      <img src="@/assets/under_contruction.png" alt="default image" width="100%" height="auto">
-    </div>
-</template> -->
-
 <template>
   <!-- Wrapper for the whole layout. -->
   <div class="
+          border border-green-500
           flex flex-col lg:flex-row justify-between items-stretch
           min-h-screen lg:h-screen w-full
           pt-6 pb-0

@@ -21,7 +21,6 @@
     ">
       <div v-if="loading">Loading...</div>
       <div v-else-if="error">Error: {{ error }}</div>
-      <!-- Container for the socials -->
       <div v-else>
 
         <div v-for="year in publicationsSorted"

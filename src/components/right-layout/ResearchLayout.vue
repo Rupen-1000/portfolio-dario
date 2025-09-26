@@ -82,7 +82,8 @@
                         text-[clamp(0.825rem,1vw+0.4rem,1rem)]
                         md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
                         lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
-                        text-shadow-md line-clamp-4 px-1 text-left
+                        text-shadow-md line-clamp-3 px-1 text-left
+                        
                     ">
                         {{ researchItem.description[0] }}
                     </p>

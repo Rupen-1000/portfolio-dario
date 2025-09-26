@@ -1,0 +1,21 @@
+{
+    "social": [
+        {
+            "img_name":"github",
+            "link":"https://github.com/dariofiosca",
+            "name":"GitHub"
+        },
+        {
+            "img_name":"google-scholar",
+            "link":"https://scholar.google.com/citations?user=IZl7fS0AAAAJ&hl=en",
+            "name":"Google Scholar"
+        },
+            {
+                "img_name":"linkedin",
+                "link":"https://www.linkedin.com/in/dario-fiore-mosca-31b173157/",
+                "name":"LinkedIn"
+        }
+    ],
+    "email":"dario.fiore.mosca@univie.ac.at"
+
+}
