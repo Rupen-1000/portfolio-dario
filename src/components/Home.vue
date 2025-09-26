@@ -1,7 +1,6 @@
 <template>
   <!-- Wrapper for the whole layout. -->
   <div class="
-          border border-green-500
           flex flex-col lg:flex-row justify-between items-stretch
           min-h-screen lg:h-screen w-full
           pt-6 pb-0

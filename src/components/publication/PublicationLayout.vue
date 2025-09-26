@@ -1,4 +1,3 @@
-<!-- For the layout of the landing page of publication page -->
 <template>
     <div class="
           rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.15)]

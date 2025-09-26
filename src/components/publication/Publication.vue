@@ -1,4 +1,3 @@
- <!-- For rendering each publication item -->
 <template>
   <div class="
           min-h-screen lg:h-screen w-full items-stretch

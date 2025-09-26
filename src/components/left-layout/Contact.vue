@@ -1,6 +1,4 @@
- <!-- For rendering social icons that are also clickable  -->
-
- <template>
+<template>
    <div v-if="loading">Loading...</div>
    <div v-else-if="error">Error: {{ error }}</div>
    <!-- Container for the Contact -->

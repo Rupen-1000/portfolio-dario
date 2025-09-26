@@ -1,4 +1,3 @@
-<!-- TO render the Name, Title and Qoute -->
 <template>
     <div>
         <div v-if="loading">Loading...</div>
