@@ -51,14 +51,9 @@
             "image":"magint.jpeg",
             "external_links": 
                 {
-                    "preceed_desc":"Do you want to know more? Check out these publications!",
+                    "preceed_desc":"Do you want to know more? Check out the GitHub page!",
                     "links":[
-                        "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.115117",
-                        "https://journals.aps.org/prresearch/abstract/10.1103/tvp5-mpy9",
-                     {
-                        "text": "and the GitHub repository",
-                        "url": "https://github.com/MagInteract/MagInt"
-                     }
+                        "https://github.com/MagInteract/MagInt"
                     ]
                 }
         }
