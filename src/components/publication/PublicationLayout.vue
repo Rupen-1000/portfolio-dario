@@ -3,7 +3,7 @@
           rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.15)]
           p-2 lg:p-4
       ">
-        <a :href="article.doi" target="_blank" rel="noopener noreferrer">
+        <a :href="article.doi" target="_blank" rel="noopener noreferrer" class="inline-block">
           <div class="group">
               <!-- Paper Title -->
               <h3 v-katex class="
@@ -13,8 +13,7 @@
                     lg:text-[clamp(1rem,1vw+0.25rem,2rem)]
                     text-shadow-sm
                     break-words
-                    transition-all duration-200
-                    text-shadow-hover
+                    transition-all duration-200 text-shadow-hover 
               "> 
                 <span class="inline">{{ article.title }}</span>
                 <Icon :name="'diagonal-arrow'" class="arrow hover-shadow inline-block ml-1"/>

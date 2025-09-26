@@ -1,7 +1,7 @@
 <template>
     <!-- Main container -->
     <div class="
-        rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.15)]
+        rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.15)] mx-1 lg:mx-0
         p-2 md:p-5 lg:pl-2 lg:pr-4 lg:py-4 transition-all duration-300 ease-in-out"
         :class="{ 
             'max-h-[350px] lg:h-[200px] overflow-hidden': !expanded
@@ -56,7 +56,7 @@
                             <!-- Only show last paragraph -->
                             <button v-if="idx === researchItem.description.length - 1"
                                     @click="toggleExpand"
-                                    class="ml-2 transition-all duration-200 text-shadow-sm ref-shadow-hover">
+                                    class="ml-1 transition-all duration-200 text-shadow-sm ref-shadow-hover">
                                 less...
                             </button>
                         </p>

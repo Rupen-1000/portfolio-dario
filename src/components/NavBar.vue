@@ -35,7 +35,7 @@
                 </h3>
             </a> -->
             
-            <PublicationLink class="block"/>
+            <PublicationLink class="inline-block"/>
         </div>
     </div>
     <!-- Container for Social links -->

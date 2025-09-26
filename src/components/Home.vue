@@ -3,7 +3,7 @@
   <div class="
           flex flex-col lg:flex-row justify-between items-stretch
           min-h-screen lg:h-screen w-full
-          pt-6 pb-0
+          pt-6 lg:pt-0 pb-0
           px-6 md:px-10 lg:px-8
           max-w-[1440px] mx-auto
 
@@ -27,7 +27,7 @@
             flex-shrink-0
             flex-1
             h-full
-            pr-5 pl-5 pt-2
+            pr-5 pl-5 pt-8
     ">
        <NavBar/>
     </div>
@@ -37,7 +37,7 @@
     <div class="
           flex-1 flex-shrink-1
           pt-5 md:pt-10
-          lg:pr-2 lg:pl-2 lg:pt-2 
+          lg:pr-2 lg:pl-2 lg:pt-10 
           h-full
           lg:max-w-[600px]
           overflow-y-auto
