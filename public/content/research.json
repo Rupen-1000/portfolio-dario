@@ -46,7 +46,7 @@
 
                 "Force-theorem methods compute intersite exchange interactions from the DFT free-energy response to small tilts of ordered moments, assuming an effective Heisenberg Hamiltonian. The Force-Theorem in Hubbard-I method extends this idea to perturbations around the paramagnetic state, readily available in DFT+DMFT within the Hubbard-I approximation. The method is especially advantageous for strongly correlated systems with competing multipolar orders since it avoids the need for multiple self-consistent calculations of ordered phases.",
 
-                "MagInt is an open source code that implements the FT-HI method in Wien2k+TRIQS."
+                "MagInt implements the Force-Theorem in Hubbard-I method in Wien2k+TRIQS as an open source code."
             ],
             "image":"magint.jpeg",
             "external_links": 
