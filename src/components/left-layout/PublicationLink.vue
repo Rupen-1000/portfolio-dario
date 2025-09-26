@@ -1,5 +1,5 @@
 <template>
-    <a href="/publications" target="_blank" rel="noopener noreferrer">
+    <router-link to="/publications">
         <div class="
                 relative flex items-center 
                 group mt-2 lg:mt-0
@@ -16,7 +16,7 @@
             <Icon :name="'diagonal-arrow'" class="arrow hover-shadow"/>
         </div>
 
-    </a>
+    </router-link>
 </template>
 
 <script setup>
