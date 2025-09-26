@@ -1,10 +1,12 @@
 {
     "section": "About",
     "text": [
-        "Hey there! ",  
+        "Welcome to my portfolio! ",  
      
-        "Welcome to my portfolio! I'm a computational physicist fascinated by quantum materials and how theory and experiment can come together to reveal their hidden properties.", 
+        "I'm a computational physicist fascinated by quantum materials and how theory and experiment can come together to reveal their hidden properties.", 
 
-        "In here you will find some of my research interests, publications and future directions! If you are interested, feel free to contact me! "
+        "In here you will find some of my research interests, publications and future directions!",
+
+        "Feel free to contact me! "
     ]
 }
