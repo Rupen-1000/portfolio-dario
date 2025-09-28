@@ -17,7 +17,7 @@
             class="block"
          >
             <Icon :name="platform['img_name']" 
-                  class="social-icons hover-shadow-icon"
+                  class="icon hover-shadow-icon"
             />
 
          </a>
@@ -41,7 +41,7 @@
          @click="copy(data.email)"
       >
             <Icon name="email"
-               class="social-icons hover-shadow-icon"/>
+               class="icon hover-shadow-icon"/>
 
             <!-- Tooltip -->
             <span 

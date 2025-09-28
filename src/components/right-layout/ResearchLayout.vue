@@ -56,7 +56,7 @@
                             <!-- Only show last paragraph -->
                             <button v-if="idx === researchItem.description.length - 1"
                                     @click="toggleExpand"
-                                    class="ml-1 transition-all duration-200 text-shadow-sm ref-shadow-hover">
+                                    class="ml-1 transition-all duration-200 text-shadow-sm only-text-shadow-hover">
                                 less...
                             </button>
                         </p>
@@ -69,7 +69,7 @@
                                 class="ml-1"
                                 >
                                     <a :href="link" target="_blank"  rel="noopener noreferrer">
-                                        <span class="inline transition-all duration-200 text-shadow-sm ref-shadow-hover">[{{ index+1 }}]</span>
+                                        <span class="inline transition-all duration-200 text-shadow-sm only-text-shadow-hover">[{{ index+1 }}]</span>
                                     </a>
                                 </span>
                         </div>
@@ -95,7 +95,7 @@
                             text-[clamp(0.825rem,1vw+0.4rem,1rem)]
                             md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
                             lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
-                            px-1 transition-all duration-200 text-shadow-sm ref-shadow-hover
+                            px-1 transition-all duration-200 text-shadow-sm only-text-shadow-hover
                         ">
                             more...
                     </button>

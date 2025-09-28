@@ -14,22 +14,22 @@
                 space-y-3 flex-none
                 mt-10
         ">
-            <!-- Container for future! -->
-            <!-- <a href="" class="block group">
+            <!-- Container for future, expanded version! -->
+            <!-- <a href="" class="block">
                 <h3 class="
                         text-[clamp(0.825rem,1vw+0.5rem,1.2rem)]
                         noto-links text-shadow-sm text-left
-                        text-shadow-hover
+                        only-text-shadow-hover
                 "> 
                     ABOUT
                 </h3>
             </a>
 
-            <a href="" class="block group">
+            <a href="" class="block">
                 <h3 class="
                         text-[clamp(0.825rem,1vw+0.5rem,1.2rem)]
                         noto-links text-shadow-sm text-left
-                        text-shadow-hover
+                        only-text-shadow-hover
                 "> 
                     RESEARCH
                 </h3>

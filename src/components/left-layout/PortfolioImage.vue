@@ -6,7 +6,7 @@
         rounded-full overflow-hidden
     ">
             <img src="/images/Dario_portfolio.jpg" 
-                class="img-face w-full h-full"
+                class="profile-img w-full h-full"
             />
     </div>
 

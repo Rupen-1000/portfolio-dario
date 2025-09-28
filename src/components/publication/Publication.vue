@@ -6,11 +6,12 @@
           md:pt-10 md:pl-12 md:pr-8
           lg:pt-15 lg:pl-32 lg:pr-16
   ">
+    <HomeLink class="pt-1 inline-block -ml-1"/>
     <!-- Top Header container -->
     <h1 class="
           noto-h1 font-[650] [letter-spacing:0.05rem] 
           text-xl md:text-4xl lg:text-5xl
-          text-shadow-sm
+          text-shadow-sm mt-1
     ">
       Publications
     </h1>
@@ -57,6 +58,7 @@
 import { computed } from 'vue';
 import { useJsonFetch } from '@/composables/useJsonFetch.js';
 import PublicationLayout from '@/components/publication/PublicationLayout.vue';
+import HomeLink from '@/components/publication/HomeLink.vue';
 
 // Load file using the composable
 const { data, loading, error } = useJsonFetch('/content/publications.json');

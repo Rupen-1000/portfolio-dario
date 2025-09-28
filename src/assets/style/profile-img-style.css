@@ -1,0 +1,6 @@
+.profile-img {
+  object-fit: contain;
+  object-position: 50% 50%; /* adjust the position of the image */
+  transform: scale(1.2) translateY(7%);
+
+}

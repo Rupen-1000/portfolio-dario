@@ -1,0 +1,22 @@
+.icon {
+  /* Dimensions (width and height) */
+  width: 40px;
+  height: 40px;
+
+  /* Fill color (used because of fill="currentColor") */
+  color: #FFFFFF;
+
+  /* Stroke color */
+  stroke: #222222;
+  stroke-width:1.3px;
+
+  /* Drop shadow effect */
+  filter: drop-shadow(0 0 1.5px rgba(0,0,0,0.3))
+          drop-shadow(0 0 1px rgba(0,0,0,0.05));
+  transition: filter 0.3s ease;
+}
+
+.hover-shadow-icon:hover {
+  filter: drop-shadow(0 0 1px rgba(0,0,0,1)) 
+          drop-shadow(0 0 1px rgba(0,0,0,0.5));
+}

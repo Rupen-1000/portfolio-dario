@@ -16,7 +16,12 @@
                     transition-all duration-200 text-shadow-hover 
               "> 
                 <span class="inline">{{ article.title }}</span>
-                <Icon :name="'diagonal-arrow'" class="arrow hover-shadow inline-block ml-1"/>
+                <Icon 
+                  :name="'diagonal-arrow'"
+                  class="
+                    out-arrow-dim arrow-shadow-effect hover-shadow 
+                    inline-block ml-1
+                "/>
               </h3>
               
           </div>

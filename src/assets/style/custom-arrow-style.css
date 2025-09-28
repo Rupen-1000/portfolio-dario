@@ -1,0 +1,28 @@
+.out-arrow-dim {
+  /* Dimensions (width and height) */
+  width: 20px;
+  height: 20px;
+}
+
+.back-arrow-dim {
+  /* Dimensions (width and height) */
+  width: 20px;
+  height: 25px;
+}
+
+.arrow-shadow-effect {
+  stroke: #222222;
+  stroke-width:5px;
+
+  /* Drop shadow effect */
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.3))
+          drop-shadow(0 0 1px rgba(0,0,0,0.05));
+
+  transition: filter 0.2s ease;
+}
+
+/* For group hover arrow */
+.group:hover .hover-shadow {
+  filter: drop-shadow(0 0 1px rgba(0,0,0,1)) 
+          drop-shadow(0 0 1px rgba(0,0,0,0.5));
+}
