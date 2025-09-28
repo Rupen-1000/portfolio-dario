@@ -35,38 +35,36 @@
             </div>
             
             <!-- Read more: External link/s -->
-            <div>
+            <div class="px-1">
                 <!-- Description -->
-                <span 
+                <p
                     class="
                         noto-h3 font-[350] lg:font-[400]
                         text-[clamp(0.825rem,1vw+0.4rem,1rem)]
                         md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
                         lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
-                        inline text-shadow-md px-1
+                        text-shadow-md inline
                 "> 
                     {{ researchItem.external_links.preceed_desc }}
-                </span>
+                </p>
                 
                 <!-- Link/s -->
-                <span
+                <a 
                     v-for="(link, index) in researchItem.external_links.links"
                     :key="index"
-                >
-                    <a :href="link" target="_blank"  rel="noopener noreferrer">
-                        <span 
-                            class="
-                                noto-h3 font-[350] lg:font-[400]
-                                text-[clamp(0.825rem,1vw+0.4rem,1rem)]
-                                md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
-                                lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
-                                inline transition-all duration-200 
-                                text-shadow-sm only-text-shadow-hover
-                        ">
-                            [{{ index+1 }}]
-                        </span>
-                    </a>
-                </span>
+                    :href="link" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="
+                        noto-h3 font-[350] lg:font-[400]
+                        text-[clamp(0.825rem,1vw+0.4rem,1rem)]
+                        md:text-[clamp(0.825rem,2vw+0.3rem,2rem)]
+                        lg:text-[clamp(0.625rem,1vw+0.3rem,1rem)]
+                        transition-all duration-200 
+                        text-shadow-sm only-text-shadow-hover
+                ">
+                    [{{ index+1 }}]
+                </a>
             </div>
             <!-- Revert to contracted view -->
             <button
