@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div>
         <div v-if="loading">Loading...</div>
         <div v-else-if="error">Error: {{ error }}</div>
         <div v-else>
@@ -16,7 +16,6 @@
             <div
                 v-for="paragraph in data.text"
                 class="
-                    
                     justify-center
                     noto-h3 font-[250] lg:font-[400]
                     text-[clamp(0.825rem,2vw+0.5rem,1.5rem)]
@@ -30,9 +29,6 @@
                 <p> {{ paragraph }} </p>
             </div>
         </div>
-
-
-
     </div>
 </template>
 

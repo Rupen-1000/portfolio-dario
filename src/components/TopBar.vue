@@ -1,8 +1,5 @@
 <template>
-    <!-- Render the Profile part -->
-    <div class="
-            w-full
-    ">        
+    <div class="w-full">        
         <Profile/>
     </div>
 

@@ -1,15 +1,15 @@
 <template>
-    <!-- Container for Portfolio image -->
+    <!-- Portfolio image -->
     <div class="space-y-4 flex-none">
         
         <PortfolioImage class="ml-2"/>
 
-        <!-- Container for Profile -->
+        <!-- Profile -->
         <div class="profile">
             <Profile/>
         </div>
         
-        <!-- Container for Navigation -->
+        <!-- Navigation -->
         <div class="
                 space-y-3 flex-none
                 mt-10
@@ -38,7 +38,8 @@
             <PublicationLink class="inline-block"/>
         </div>
     </div>
-    <!-- Container for Social links -->
+    
+    <!-- Contacts -->
     <div class="
             w-1/3 mb-6
     ">

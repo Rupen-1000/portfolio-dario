@@ -20,12 +20,9 @@
                     out-arrow-dim arrow-shadow-effect hover-shadow
             "/>
         </div>
-
     </router-link>
 </template>
 
 <script setup>
-
 import Icon from '@/components/general/Icon.vue';
-
 </script>

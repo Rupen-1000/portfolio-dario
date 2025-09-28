@@ -19,7 +19,7 @@ export function useJsonFetch(url) {
     }
   };
 
-  // Call the fetch function when the component is mounted
+  // Call the fetch when the component is mounted
   onMounted(fetchData);
 
   // Return the reactive variables and the fetch function

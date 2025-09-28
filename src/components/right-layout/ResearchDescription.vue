@@ -112,6 +112,7 @@
 </template>
 
 <script setup>
+
 defineProps({
   researchItem: {
     type: Object,
