@@ -51,6 +51,10 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <Copyright/>
+    </div>
   </div>
 </template>
 
@@ -59,6 +63,7 @@ import { computed } from 'vue';
 import { useJsonFetch } from '@/composables/useJsonFetch.js';
 import PublicationLayout from '@/components/publication/PublicationLayout.vue';
 import HomeLink from '@/components/publication/HomeLink.vue';
+import Copyright from '@/components/right-layout/Copyright.vue';
 
 // Load file using the composable
 const { data, loading, error } = useJsonFetch('/content/publications.json');
