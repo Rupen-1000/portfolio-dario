@@ -53,6 +53,7 @@
                 {
                     "preceed_desc":"Do you want to know more? Check out the GitHub page!",
                     "links":[
+                        "https://maginteract.github.io/MagInt/",
                         "https://github.com/MagInteract/MagInt"
                     ]
                 }
