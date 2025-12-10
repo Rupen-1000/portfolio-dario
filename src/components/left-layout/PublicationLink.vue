@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col space-y-2">
+  <div class="flex flex-col space-y-4">
     <router-link to="/publications">
       <div
         class="
