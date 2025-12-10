@@ -1,0 +1,47 @@
+{
+  "title": "Open Position: Researcher / PhD Candidate",
+  "heroImage": "/images/open-position.jpg",
+  "heroAlt": "Research position illustration",
+  "intro": "We are looking for a highly motivated candidate to join our research group. The position offers the opportunity to work on interdisciplinary projects in a collaborative and international environment.",
+  "sections": [
+    {
+      "heading": "Your Responsibilities",
+      "body": [
+        "You will contribute to ongoing research projects, collaborate with team members, and support the dissemination of results through publications and presentations."
+      ],
+      "items": [
+        "Conduct independent research within the scope of the group’s activities.",
+        "Contribute to joint publications and conference presentations.",
+        "Collaborate with international partners and project members.",
+        "Support the supervision of students when appropriate."
+      ]
+    },
+    {
+      "heading": "Your Profile",
+      "body": [
+        "We are looking for a candidate with a strong interest in research and an openness to interdisciplinary collaboration."
+      ],
+      "items": [
+        "Master’s degree (or equivalent) in a relevant field.",
+        "Strong analytical and communication skills.",
+        "Good command of written and spoken English.",
+        "Ability to work both independently and in a team."
+      ]
+    },
+    {
+      "heading": "What We Offer",
+      "body": [
+        "We offer a stimulating research environment with access to excellent infrastructure and opportunities for professional development."
+      ],
+      "items": [
+        "An internationally oriented and supportive research group.",
+        "Opportunities to attend conferences and workshops.",
+        "Possibility to develop your own research ideas within the group’s scope."
+      ]
+    }
+  ],
+  "contact": {
+    "text": "If you are interested in this position, please send your application including a CV, a short motivation letter, and contact details of two referees.",
+    "email": "your.email@university.edu"
+  }
+}
