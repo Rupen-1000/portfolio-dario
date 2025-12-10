@@ -1,17 +1,17 @@
 {
   "title": "Open PhD Positions - Computational Materials Physics (University of Vienna)",
-  "heroImage": "/images/open-position.jpg",
+  "heroImage": "/images/phd_position.jpeg",
   "heroAlt": "Research position illustration",
   "intro": "Applications are invited for a fully funded PhD position on the project \"Ab initio Unveiling of Relativistic Ordered Phases\", supervised by Dr. Dario Fiore Mosca in the Computational Materials Physics Group at the University of Vienna, Austria.",
   "sections": [
     {
-      "heading": "TOPIC OF THE PROJECT:",
+      "heading": "Topic of the project:",
       "body": [
         "In condensed matter physics, hidden-order phases are characterized by clear thermodynamic phase transitions whose corresponding order parameters remain elusive to conventional experimental techniques. These phenomena often originate from the interplay between strong spin–orbit coupling and electronic correlation, that couple intersite exchange, classical electron–magnetic interactions and electron–lattice effects. The successful candidate will use state-of-the-art first principles calculations and effective model Hamiltonian methods to advance the fundamental understanding of these exotic states and develop innovative methodologies for identifying such orders."
       ]
     },
     {
-      "heading": "REQUIRED QUALIFICATIONS:",
+      "heading": "Required qualifications:",
       "body": [
         "We are looking for a candidate with a strong interest in research and an openness to interdisciplinary collaboration."
       ],
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "heading": "WE OFFER:",
+      "heading": "We offer:",
       "body": [
         "We offer a stimulating research environment with access to excellent infrastructure and opportunities for professional development."
       ],
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "heading": "START: ",
+      "heading": "Start date: ",
       "body": [
         "Between March and September 2026, with a total duration of three years.  "
       ]
