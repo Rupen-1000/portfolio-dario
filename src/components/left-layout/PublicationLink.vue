@@ -23,7 +23,7 @@
     <router-link to="/open-position">
         <div class="
                 relative flex items-center
-                group mt-2 lg:mt-0
+                group mt-4 lg:mt-2
         ">
             <h3 class="
                     lg:text-[clamp(0.825rem,1vw+0.5rem,1.2rem)] text-sm

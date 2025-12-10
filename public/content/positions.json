@@ -1,47 +1,56 @@
 {
-  "title": "Open Position: Researcher / PhD Candidate",
+  "title": "Open PhD Positions - Computational Materials Physics (University of Vienna)",
   "heroImage": "/images/open-position.jpg",
   "heroAlt": "Research position illustration",
-  "intro": "We are looking for a highly motivated candidate to join our research group. The position offers the opportunity to work on interdisciplinary projects in a collaborative and international environment.",
+  "intro": "Applications are invited for a fully funded PhD position on the project \"Ab initio Unveiling of Relativistic Ordered Phases\", supervised by Dr. Dario Fiore Mosca in the Computational Materials Physics Group at the University of Vienna, Austria.",
   "sections": [
     {
-      "heading": "Your Responsibilities",
+      "heading": "TOPIC OF THE PROJECT:",
       "body": [
-        "You will contribute to ongoing research projects, collaborate with team members, and support the dissemination of results through publications and presentations."
-      ],
-      "items": [
-        "Conduct independent research within the scope of the group’s activities.",
-        "Contribute to joint publications and conference presentations.",
-        "Collaborate with international partners and project members.",
-        "Support the supervision of students when appropriate."
+        "In condensed matter physics, hidden-order phases are characterized by clear thermodynamic phase transitions whose corresponding order parameters remain elusive to conventional experimental techniques. These phenomena often originate from the interplay between strong spin–orbit coupling and electronic correlation, that couple intersite exchange, classical electron–magnetic interactions and electron–lattice effects. The successful candidate will use state-of-the-art first principles calculations and effective model Hamiltonian methods to advance the fundamental understanding of these exotic states and develop innovative methodologies for identifying such orders."
       ]
     },
     {
-      "heading": "Your Profile",
+      "heading": "REQUIRED QUALIFICATIONS:",
       "body": [
         "We are looking for a candidate with a strong interest in research and an openness to interdisciplinary collaboration."
       ],
       "items": [
-        "Master’s degree (or equivalent) in a relevant field.",
-        "Strong analytical and communication skills.",
-        "Good command of written and spoken English.",
-        "Ability to work both independently and in a team."
+        "Master’s degree in Physics, Materials Science, Chemistry, or a closely related field",
+        "Excellent oral and written communication skills in English",
+        "Strong interest in materials physics and in applying or developing advanced computational methods",
+        "Ability and willingness to work as a member of a diverse and international research team",
+        "Experience with first-principles electronic-structure methods (e.g. DFT, DFT+DMFT, or related approaches) is desirable",
+        "Advanced mathematical and/or programming skills are a plus."
       ]
     },
     {
-      "heading": "What We Offer",
+      "heading": "WE OFFER:",
       "body": [
         "We offer a stimulating research environment with access to excellent infrastructure and opportunities for professional development."
       ],
       "items": [
-        "An internationally oriented and supportive research group.",
-        "Opportunities to attend conferences and workshops.",
-        "Possibility to develop your own research ideas within the group’s scope."
+        "A dynamic and collaborative research environment",
+        "Opportunities for professional development through courses, workshops and scientific exchanges",
+        "Access to excellent computational resources and a modern research infrastructure",
+        "Flexible working arrangements, including the possibility of partial remote work."
+      ]
+    },
+    {
+      "heading": "START: ",
+      "body": [
+        "Between March and September 2026, with a total duration of three years.  "
       ]
     }
   ],
   "contact": {
-    "text": "If you are interested in this position, please send your application including a CV, a short motivation letter, and contact details of two referees.",
-    "email": "your.email@university.edu"
+    "text": "Please send your application to dario.fiore.mosca@univie.ac.at including:",
+    "email": "dario.fiore.mosca@univie.ac.at",
+    "items": [
+      "A cover letter describing your motivation for applying and how the position aligns with your long-term career goals",
+      "Your curriculum vitae (CV)",
+      "Contact information for two academic references",
+      "A copy of your Master’s thesis (if available) and transcripts of your Bachelor’s and Master’s records"
+    ]
   }
 }
