@@ -8,6 +8,7 @@
       lg:pt-15 lg:pl-32 lg:pr-16
     "
   >
+    <!-- FIX: Needs better centering -->
     <HomeLink class="pt-1 inline-block -ml-1" />
 
     <!-- Page title -->
@@ -113,7 +114,7 @@
                   {{ item }}
                 </li>
               </ul>
-
+              <!-- BUG: Make link clickable for easy copy and add hover mechanisms -->
               <p v-if="data.contact.email">
                 Please send your application to
                 <a

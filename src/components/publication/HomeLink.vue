@@ -1,3 +1,4 @@
+<!-- OPTIMIZE: Move this to general and update all components containing this component -->
 <template>
     <router-link to="/">
         <div class="
